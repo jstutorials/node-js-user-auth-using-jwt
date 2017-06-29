@@ -1,0 +1,17 @@
+{
+  "name": "login_backend",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+	"express": "4.8.7",
+	"jsonwebtoken": "^7.4.1",
+    "ejs": "*",
+	"body-parser": "^1.16.1",
+    "cors": "^2.8.3",
+    "dotenv": "^4.0.0",
+    "mysql": "^2.13.0"
+  }
+}
